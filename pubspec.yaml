@@ -1,0 +1,38 @@
+name: location
+description: "Proyecto Flutter - Auditoría Geoespacial"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # 🔹 Gestión de estado sin setState
+  flutter_riverpod: ^2.5.0
+
+  # 🔹 GPS eficiente
+  geolocator: ^10.1.0
+
+  # 🔹 Descarga de modelos desde servidor (lazy loading)
+  http: ^1.2.0
+
+  # 🔹 Guardar modelos en cache local
+  path_provider: ^2.1.2
+
+  # 🔹 OPCIONAL → solo si vas a mostrar modelos 3D
+  model_viewer_plus: ^1.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
